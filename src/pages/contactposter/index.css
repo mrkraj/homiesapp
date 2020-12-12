@@ -1,0 +1,9 @@
+.email-message{
+    height: 200px;
+}
+/* Mobile View */
+@media (max-width: 767px) {
+    .email-message {
+        height: 150px;
+    }
+}

@@ -1,0 +1,190 @@
+.viewdetailsContainer{
+    width: 80%;
+    margin: auto;
+}
+.boxedcontainer{
+    text-align: left;
+    border: 1px solid;
+    margin-bottom: 20px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.roomhighlightscontainer{
+    width: 100%;
+    border: 1px solid;
+    padding: 10px;
+    height: auto;
+    display: flex;
+}
+.roomdetails{
+    width: 60%;
+}
+.room-detail-img-container{
+    width: 40%;
+    display: inline;
+    overflow: hidden;
+    position: relative;
+}
+.detailspointsfield{
+    width: 33.33%
+}
+.roomdetails ul li {
+    width: 50%;
+    padding: 10px;
+    display: inline-block;
+}
+.details-high-label{
+    display: inline-block;
+}
+.details-high-label p{
+    display: table-row;
+}
+.details-high-icon{
+    float: left;
+    margin-right: 10px;
+}
+.image-swiper-container .swiper-button-next{
+    right: 30%;
+    top: auto;
+    margin-top: 0px;
+}
+.image-swiper-container .swiper-button-prev{
+    left: 30%;
+    top: auto;
+    margin-top: 0px;
+    position: relative;
+}
+.image-swiper-container  .swiper-button-next:after{
+    font-size: large;
+}
+.image-swiper-container  .swiper-slide {
+   border: none;
+}
+.image-swiper-container  .swiper-button-prev:after{
+    font-size: large;
+}
+.highlights-label{
+    font-size: 14px;
+}
+.highlights-value{
+    font-size: 16px;
+    font-weight: bold;
+}
+.swiperImageContainer{
+    height: 300px;
+    width: 300px;
+}
+.swiperImagehold{
+    width: 100%;
+    height: 100%;
+}
+.room-rent-container{
+    padding: 15px;
+    text-align: center;
+    color: white;
+    height: 60px;
+    background-color: #f7a203;
+    margin-bottom: 20px;
+}
+.room-moreinfo-con{
+    border: 1px solid;
+    padding: 10px;
+    text-align: left;
+}
+.room-moreinfo-con p{
+    margin-bottom: 0px;
+}
+.room-moreinfo{
+    width: 100%;
+}
+.room-moreinfo ul li {
+    width: 25%;
+    display: inline-block;
+}
+.room-moreinfo .clearfix{
+    padding: 0px;
+    margin: 0px;
+}
+.room-amenities ul li {
+    width: 25%;
+    display: inline-block;
+    margin-bottom: 1rem; 
+}
+.room-amenities .clearfix{
+    padding: 0px;
+    margin: 0px;
+}
+.room-moreinfo p{
+    margin-bottom: 0px;
+}
+.amenities-value{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.contact-poster-container{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contact-poster{
+    background-color: #f7a203;
+    font-size: 20px;
+}
+.viewdetail-heading{
+    font-size: 28px;
+    font-weight: bold;
+    font-family: BrandFont-Display,Helvetica,Arial,sans-serif;
+    color: #000000;
+}
+.hidden{
+    display: none !important;
+}
+
+
+/* Mobile View */
+@media (max-width: 767px) {
+    .viewdetailsContainer {
+        width: 98%; 
+    }
+    .postPar {
+        font-size: 16px; 
+        margin: 0px;
+    }
+    .viewdetail-heading {
+        margin: 0px;
+        font-size: 20px; 
+    }
+    .roomhighlightscontainer {
+        flex-direction: column;
+    }
+    .roomdetails{
+        order: 2;
+        width: 100%;
+        padding: 10px;
+    }
+    .room-detail-img-container{
+        order: 1;
+        width: 100%;
+        border: 1px solid;
+        border-color: black;
+    }
+    .swiper_rent_field{
+        font-size: 20px;
+    }
+    .iconHold{
+        width: 30px;
+        height: 30px;
+    }
+    .roomdetails .clearfix {
+        padding: 0px !important;
+    }
+    .room-moreinfo ul li {
+        width: 50%;
+    }
+    .room-amenities ul li {
+        width: 50%; 
+    }
+    .viewdetail-heading{
+        margin-bottom: 10px !important;
+    }
+}

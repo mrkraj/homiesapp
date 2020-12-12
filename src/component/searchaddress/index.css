@@ -1,0 +1,101 @@
+.SearchAddress{
+    height: 400px;
+    position: relative;
+}
+.heroSearchWrap{
+    z-index : 15;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    text-align: center;
+    font-family: BrandFont-Display,Helvetica,Arial,sans-serif;
+}
+.quickSearchMainTitle{
+    font-size: 64px;
+    font-weight: bold;
+    line-height: .9;
+    font-family: BrandFont-Display,Helvetica,Arial,sans-serif;
+    color: #fff;
+}
+.quickSearchSubTitle{
+    color: #fff;
+    font-size: 34px;
+    line-height: .9;
+    font-family: BrandFont-Display,Helvetica,Arial,sans-serif;
+}
+.inputWrap{
+    position: relative;
+    width: 100%;
+}
+.quickSearchLookup{
+    height: 60px;
+    width: 70%;
+    font-size: 1rem;
+    margin-top: 70px;
+    padding: 15px;
+    font-size: 20px;
+}
+.searchButton{
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px 50px;
+    margin: 0 .625rem .625rem .8rem;
+    border: .0625rem solid#ed7000;
+    color: #fff;
+    font-size: .875rem;
+    font-weight: 700;
+    background-color:#ed7000;
+    font-style: normal;
+    line-height: 1;
+    text-decoration: none;
+}
+.searchText{
+    font-size: 20px;
+    
+}
+.geoHomepageHeroImage{
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    height: inherit;
+    background-image: url(../../resource/logo/heroimage.jpg);
+}
+.geoHomepageHeroImageoverlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: inherit;
+    background: rgba(0,0,0,.5);
+}
+
+ 
+/* Mobile View */
+@media (max-width: 767px) {
+    .quickSearchMainTitle {
+        margin-top: 50px;
+        font-size: 38px;
+        line-height: 1.1; 
+    }
+    .quickSearchSubTitle {
+        font-size: 20px; 
+        line-height: 1.2; 
+    }
+    .quickSearchLookup { 
+        width: 90%;
+        font-size: 1rem; 
+        padding: 15px;
+        font-size: 20px;
+        margin-top: 0px;
+    }
+    .searchButton {
+        padding: 15px 50px;
+        margin-top: 30px;
+    }
+}

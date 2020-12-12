@@ -1,0 +1,11 @@
+/* Mobile View */
+@media (max-width: 767px) {
+    .leftField {
+        width: 100% !important;
+        margin-bottom: 10px;
+    }
+    .rightField {
+        width: 100% !important;
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,129 @@
+.housesGridContainer{
+    width: 80%;
+    margin: auto;
+}
+.houses-grid-title{
+    font-size: 24px;
+    font-family: BrandFont-Display,Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    overflow: hidden;
+    padding: 5px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin: 0px !important;
+}
+.price-badge{ 
+        position: absolute;
+        right: 0px;
+        top: 10px;
+        background: #ffbc3d;
+        text-align: center;
+        color: white;
+        padding: 5px 10px;
+        font-size: 20px;
+        font-weight: bold; 
+}
+.housedetails{
+    width: 70%;
+}
+.house-img-container{
+    width: 30%;
+    position: relative;
+}
+ul.house-feature-list {
+    padding: 0;
+}
+.housedetails ul li {
+    width: 30%;
+    padding: 10px;
+    display: inline-block;
+    margin: 0px !important;
+}
+p.house-grid-address {
+    padding: 5px;
+    margin: 0px !important
+}
+.grid-tile-action-container{
+    border-top: 1px solid #d8dada;
+    border-left: 1px solid #d8dada;
+    margin-right: 5px;
+    display: flex;
+    border-bottom: 3px solid #d52b1e;
+}
+.tile-action{
+    display: inline-block;
+    width: 33.33%;
+    padding: 5px;
+    text-align: center;
+    border-right: 1px solid #d8dada;
+}
+button.tile-action-button {
+    border: none;
+    border-radius: 0px;
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+    background-color: inherit;
+    font-weight: bold;
+}
+:hover button.tile-action-button {
+    color: black;
+}
+.showmaplocation{
+    color: #d52b1e;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.girdsplitcontainer {
+    margin-bottom: 20px;
+}
+.mapOverlayContainer{ 
+    height: 500px;
+}
+#mapOverlaySection .close-btn{
+    z-index: 1;
+}
+.househighlightscontainer{
+    width: 100%;
+    border: 1px solid;
+    padding: 10px;
+    height: auto;
+    display: flex;
+}
+
+
+/* Mobile View */
+@media (max-width: 767px) {
+    .housesGridContainer {
+        width: 100%;
+        margin: auto;
+    }
+    .househighlightscontainer{
+        display: table;
+    }
+    .housedetails {
+        width: 100%; 
+        display: table-footer-group;
+    }
+    .house-img-container {
+        width: 100%;
+        display: table-header-group;
+    }
+    .housedetails ul li { 
+        padding: 0px;
+        margin-bottom: .5rem !important;
+    }
+    .highlights-value {
+        font-size: 14px;
+    }
+    ul.house-feature-list {
+        padding: 5px;
+    }
+    button.tile-action-button { 
+        font-size: 14px;
+    } 
+    .postresultfor{
+        font-size: 16px;
+    }
+}

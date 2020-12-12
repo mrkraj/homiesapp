@@ -1,0 +1,23 @@
+.homies-gf {
+    width: auto;
+    padding-top: 20px;
+    border-top: 1px solid;
+    max-height: 500px;
+    border-bottom: 1px solid;
+    border-color: #cccccc;
+    background-color:#000000ed;
+}
+.cwhite{
+    color: white;
+}
+.footer_social{
+    padding: 10px;
+}
+ 
+.footerLinks{
+    border-left: 1px solid #cccccc;
+    padding: 10px;
+}
+.footerMainLogo{
+    width: 150px;
+}

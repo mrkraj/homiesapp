@@ -1,0 +1,96 @@
+
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+    .swiperHeading{ 
+      font-size: 32px;
+      padding: 20px; 
+      text-align: center;
+      font-family: BrandFont-Display,Helvetica,Arial,sans-serif;
+    }
+    .swiper-slide{
+      border: 1px solid;
+      border-color: black;
+      border-radius: .5rem;
+    }
+    .homepage-listing-background{
+      width: 100%;
+    }
+    .homepage-listing-image{
+      height: 250px;
+      border-radius: .5rem;
+    }
+    .swiper-button-next{
+      color: black !important;
+    }
+    .swiper-button-prev{
+      color: black !important;
+    }
+    .viewdetails{
+      background-color: white;
+      width: 120px;
+      height: 40px;
+      color: black;
+      font-size: 15px;
+      margin-bottom: 10px;
+      padding: 7px;
+    }
+    .carouseltitle{
+      font-size: 24px;
+      font-family: BrandFont-Display,Helvetica,Arial,sans-serif;
+      font-weight: normal;
+      overflow: hidden;
+      padding: 5px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+    .homepage-listing-body{
+      height: 180px;
+    }
+    .swiper-pagination{
+      position: relative !important;
+      bottom: 0 !important;
+    }
+    .swiper-pagination-bullet {
+      background-color: black !important;
+    }
+    .viewdetails:hover {
+      color: black !important;
+  }
+  .homepage-listing-body p {
+    margin-bottom: 0px !important;
+}
+
+/* Mobile View */
+@media (max-width: 767px) {
+  .swiperHeading {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,10 @@
+.whitebutton{
+    color: black;
+    background-color: white;
+}
+.whitebutton :hover {
+    color: black !important;
+}
+.posterFeedback{
+    height: 200px;
+}
